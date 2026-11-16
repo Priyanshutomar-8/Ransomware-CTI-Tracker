@@ -1,0 +1,20 @@
+# Secrets: API keys go in .env, never in commits
+.env
+*.key
+config.local.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Never commit samples or raw dumps
+samples/
+*.exe
+*.dll
+*.zip
+*.7z
+raw/
+
+.DS_Store
